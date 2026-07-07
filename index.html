@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice # 1</title>
+    <style>
+        .main {
+            /* display: inline;
+            display: block; */
+            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .box1,
+        .box2,
+        .box3,
+        .box4,
+        .box5 {
+            width: 300px;
+            height: 300px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 70px;
+
+        }
+
+        .box1 {
+            background-color: rgb(52, 144, 224);
+        }
+
+        .box2 {
+            background-color: aqua;
+
+        }
+
+        .box3 {
+            background-color: aquamarine;
+        }
+
+        .box4 {
+            background-color: blueviolet;
+        }
+
+        .box5 {
+            background-color: olivedrab;
+        }
+
+        .styletable {
+            border: 3px solid maroon;
+        }
+
+        .styletable th {
+            border: 2px solid salmon;
+        }
+
+        .styletable td {
+            border: 2px solid salmon;
+        }
+
+        .cube1 {
+            height: 500px;
+            width: 500px;
+            background-color: salmon;
+            position: absolute;
+            z-index: 1;
+            left: 300px;
+            top: 500px;
+        }
+
+        .cube2 {
+            height: 400px;
+            width: 400px;
+            background-color: sandybrown;
+            position: absolute;
+            z-index: 2;
+        }
+
+        .cube3 {
+            height: 300px;
+            width: 300px;
+            background-color: seagreen;
+            position: absolute;
+            z-index: 3;
+        }
+
+        .cube4 {
+            height: 200px;
+            width: 200px;
+            background-color: slateblue;
+            position: absolute;
+            z-index: 4;
+        }
+
+        .cube1,
+        .cube2,
+        .cube3,
+        .cube4 {
+            font-size: 30px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box1">Box1</div>
+        <div class="box2">Box2</div>
+        <div class="box3">Box3</div>
+        <div class="box4">Box4</div>
+        <div class="box5">Box5</div>
+    </div>
+    <h1>Hello World</h1>
+    <h2>Hello World</h1>
+        <h3>Hello World</h1>
+            <h4>Hello World</h1>
+                <h5>Hello World</h1>
+                    <h6>Hello World</h1>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet quidem atque cumque
+                            deserunt esse veniam nobis excepturi quod incidunt, dolorem accusantium vitae necessitatibus
+                            reiciendis qui saepe labore, ipsam optio, laborum autem sed sit soluta iure. Aliquid
+                            asperiores atque, dolores quos quisquam, ab aut sapiente, incidunt necessitatibus
+                            repellendus consequuntur! Animi voluptate repudiandae ullam aperiam assumenda sed aut alias
+                            distinctio quis. Similique vel aliquid, quasi quo architecto, unde labore accusamus iure,
+                            odit cum voluptatum laudantium recusandae cumque? Porro dolore, ipsa voluptatem culpa velit
+                            neque aliquam quidem, consectetur, ex alias sunt ut odit iste dignissimos officia
+                            recusandae. Dolore earum maxime voluptatum esse!</p>
+                        <input type="text">
+                        <input type="checkbox">
+                        <input type="color">
+                        <input type="date" name="" id="">
+                        <input type="email" name="" id="">
+                        <input type="datetime-local">
+                        <input type="file">
+                        <input type="hidden">
+                        <input type="image">
+                        <input type="month">
+                        <input type="number">
+                        <input type="radio">
+                        <input type="range">
+                        <input type="reset">
+                        <input type="search">
+                        <input type="submit">
+                        <input type="time">
+                        <input type="url">
+                        <input type="week">
+
+                        <ol>
+                            <li>Bike</li>
+                            <li>Car</li>
+                            <li>Jet</li>
+                        </ol>
+
+                        <ul>
+                            <li>Over</li>
+                            <li>Never</li>
+                            <li>Under</li>
+                        </ul>
+
+                        <select name="" id="">
+                            <option value="">Select Bike</option>
+                            <option value="">BMW</option>
+                            <option value="">Yamaha</option>
+                            <option value="">Suzuki</option>
+                            <option value="">Honda</option>
+                            <option value="">Kawasaki</option>
+                            <option value="">Ducati</option>
+                        </select>
+                        <table border="40">
+                            <tr>
+                                <th>Name</th>
+                                <th>Course</th>
+                                <th>Roll No</th>
+                                <th>Email</th>
+                                <th>Contact Number</th>
+                            </tr>
+                            <tr>
+                                <td>Ali</td>
+                                <td>Dev Ops</td>
+                                <td>200</td>
+                                <td>Ali@gmail.com</td>
+                                <td>####</td>
+                            </tr>
+                            <tr>
+                                <td>Siraj</td>
+                                <td>C++</td>
+                                <td>1111</td>
+                                <td>Siraj@gmail.com</td>
+                                <td>####</td>
+                            </tr>
+                            <tr>
+                                <td>Muneeb</td>
+                                <td>Mern Stack Dev</td>
+                                <td>2233</td>
+                                <td>muneeb@gmail.com</td>
+                                <td>####</td>
+                            </tr>
+                            <tr>
+                                <td>Fazeel</td>
+                                <td>Cubersecurity</td>
+                                <td>5454</td>
+                                <td>fazeel@gmail.com</td>
+                                <td>####</td>
+                            </tr>
+
+                            <!-- TABLE WITH BORDERS -->
+                            <table class="styletable">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Age</th>
+                                    <th>Roll No</th>
+                                </tr>
+                                <tr>
+                                    <td>Umar</td>
+                                    <td>21</td>
+                                    <td>2222</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>10</td>
+                                    <td>2442</td>
+                                </tr>
+
+                            </table>
+                        </table>
+                        <img src="header.png" alt="" style="height: 400px; width: 400px;">
+                        <img src="assets/images/3.jpg" alt="">
+                        <img src="assets/images/2.jpg" alt="">
+                        <a href="https://www.google.com">Click to Google</a>
+
+                        <p style="background-color: violet; color: palegreen; font-size: 50px;">Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Reprehenderit sapiente in soluta sint autem natus qui
+                            quos accusantium eum blanditiis. Repudiandae impedit architecto soluta aspernatur eligendi
+                            enim, unde vel blanditiis!</p>
+
+                        <div
+                            style="background-color: forestgreen; border: 30px solid greenyellow; height: 500px; width: 500px; border-style: ridge;">
+                        </div>
+
+                        <div class="cubediv">
+                            <div class="cube1">Cube1</div>
+                            <div class="cube2">Cube2</div>
+                            <div class="cube3">Cube3</div>
+                            <div class="cube4">Cube4</div>
+                        </div>
+</body>
+
+</html>
